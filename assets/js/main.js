@@ -211,6 +211,10 @@ let swiperPortfolio = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
+  autoplay: {
+    delay: 3500,
+    disableOnInteraction: false,
+  },
 });
 
 // testimonial
@@ -229,6 +233,10 @@ var swiperTestimonial = new Swiper(".mySwiper-test", {
     568: {
       slidesPerView: 2,
     },
+  },
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
   },
 });
 
