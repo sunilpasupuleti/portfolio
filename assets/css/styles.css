@@ -517,11 +517,10 @@ img {
 
 .home__blob {
   width: 200px;
-  fill: var(--first-color);
 }
 
 .home__blob-img {
-  width: 170px;
+  width: 160px;
 }
 
 .home__data {
